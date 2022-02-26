@@ -1,0 +1,6 @@
+
+% factoriales(0,1).
+% factorial(A, B) :- A>0, A1 is A - 1, factorial(A1, B1), B is A * B1.
+
+factorial(0, 1).
+factorial(A, B) :- A>0, A1 is A - 1, factorial(A1, B1), B is A * B1.
